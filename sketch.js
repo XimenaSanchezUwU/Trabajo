@@ -16,21 +16,22 @@ function draw() {
   background(220);
   image(img, 0, 0, windowWidth, windowHeight);
   
-  let x = random(width); // Genera coordenadas x aleatorias dentro del ancho del lienzo
+  let x = random(20,1000); // Genera coordenadas x aleatorias dentro del ancho del lienzo
   let y = random(height); // Genera coordenadas y aleatorias dentro del alto del lienzo
   let Pez = random(123,900);
   let Gato = random(10,780);
+  let j = random(35,1000)
   
-  textSize(55);
+  textSize(42);
   fill(202, 0, 104);
   text('¿Por qué no has encontrado trabajo?', x, y);
   frameRate(15);
-  textSize(30);
+  textSize(25);
   fill(0, 202, 101);
   text('¿Por qué no has encontrado trabajo?', x, Pez);
   frameRate(12);
-  textSize(40);
+  textSize(32);
   fill(17, 147, 255);
-  text('¿Por qué no has encontrado trabajo?', Gato, Pez);
+  text('¿Por qué no has encontrado trabajo?', Gato, j);
   frameRate(9);
 }
