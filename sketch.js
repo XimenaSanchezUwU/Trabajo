@@ -21,16 +21,16 @@ function draw() {
   let Pez = random(123,900);
   let Gato = random(10,780);
   
-  textSize(68);
+  textSize(55);
   fill(202, 0, 104);
   text('¿Por qué no has encontrado trabajo?', x, y);
   frameRate(15);
-  textSize(45);
+  textSize(30);
   fill(0, 202, 101);
   text('¿Por qué no has encontrado trabajo?', x, Pez);
   frameRate(12);
-  textSize(58);
+  textSize(40);
   fill(17, 147, 255);
-  text('¿Por qué no has encontrado trabajo?', Gato, y);
+  text('¿Por qué no has encontrado trabajo?', Gato, Pez);
   frameRate(9);
 }
